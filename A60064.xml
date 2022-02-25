@@ -1,0 +1,654 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A short compend or a description of the rebels in Scotland in anno 1679 by a well-wisher of His Majesty ...</title>
+            <author>Well-wisher to His Majesty.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1681</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 18 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A60064</idno>
+            <idno type="STC">Wing S3580</idno>
+            <idno type="STC">ESTC R35188</idno>
+            <idno type="EEBO-CITATION">15060284</idno>
+            <idno type="OCLC">ocm 15060284</idno>
+            <idno type="VID">103133</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A60064)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 103133)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1579:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A short compend or a description of the rebels in Scotland in anno 1679 by a well-wisher of His Majesty ...</title>
+                  <author>Well-wisher to His Majesty.</author>
+               </titleStmt>
+               <extent>14 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>Edinburgh printed :</pubPlace>
+                  <date>1681.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>"Published by authority."</note>
+                  <note>Imperfect: stained, with print show-through and loss of print.</note>
+                  <note>Reproduction of original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Scotland --  History --  1660-1688.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-04</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-04</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:103133:1"/>
+            <p>A SHORT COMPEND, OR, A DESCRIPTION Of the Rebels in <hi>SCOTLAND,</hi> In <hi>Anno</hi> 1679.</p>
+            <p>By a well-wiſher of His MAJESTY,
+<q>
+                  <l>Whom God preſerve from dangers all,</l>
+                  <l>And ſend His enemies a down-fall,</l>
+                  <l>Otherwiſe hearts for to lament,</l>
+                  <l>Of the great grief they've to Him ſent.</l>
+               </q>
+            </p>
+            <p>Publiſhed by Authority.</p>
+            <p>
+               <hi>EDINB<g ref="char:V">Ʋ</g>RGH,</hi> Printed in the Year, 1681.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:103133:2"/>
+            <pb facs="tcp:103133:2"/>
+            <head>A DESCRIPTION OF THE INSURRECTION That was in the <hi>WEST.</hi>
+            </head>
+            <lg>
+               <l>GReat troubles in this Land hath been,</l>
+               <l>Strange controverſies us between,</l>
+               <l>Which may apparently be ſeen,</l>
+               <l>And is not like to ceaſe.</l>
+               <l>Who knows what danger may enſue,</l>
+               <l>Since private Plotters are not few,</l>
+               <l>A wicked and licencious Crew,</l>
+               <l>Averſe from any peace.</l>
+            </lg>
+            <lg n="2">
+               <l>To ſpeak of them in general,</l>
+               <l>Whiggs or Phanaticks, them we call;</l>
+               <l>They are a turbulent Caball,</l>
+               <l>Without all kind of rule.</l>
+               <l>Who of Religion thinks them ſtrong,</l>
+               <l>Yea, certainly they do them wrong;</l>
+               <l>For it to them does not belong,</l>
+               <l>Nor none that are ſo cruel.</l>
+            </lg>
+            <lg n="3">
+               <l>O ſtrange! it was a deſperate act,</l>
+               <l>Committed by that bloody fact,</l>
+               <l>From ſerving God they turned back,</l>
+               <l>The Biſhop for to murther.</l>
+               <l>When they had their deſign fulfill'd,</l>
+               <l>So that the Biſhops blood had ſpill'd,</l>
+               <l>
+                  <pb facs="tcp:103133:3"/>
+They prais'd the Lord they had prevail'd;</l>
+               <l>Then they proceeded further.</l>
+            </lg>
+            <lg n="4">
+               <l>Blood guiltineſs they hold no ſin,</l>
+               <l>Therefore they gloried much therein,</l>
+               <l>The Devil poſſeſſes them within,</l>
+               <l>That falls in ſuch deſpair.</l>
+               <l>When that the Primat they diſpatcht,</l>
+               <l>They bitterly gainſt others ſnatcht,</l>
+               <l>Intending us for to have catcht</l>
+               <l>Into their dreadful ſnare.</l>
+            </lg>
+            <lg n="5">
+               <l>Bleſt be the Lord, who all commands,</l>
+               <l>Diſpoſ'd us not into their hands,</l>
+               <l>Who would had both our lives and lands,</l>
+               <l>But bleſſed be the Lord.</l>
+               <l>Who turn'd the Wheel another way,</l>
+               <l>When they roſe up us for to ſlay;</l>
+               <l>They thought to have us made a prey,</l>
+               <l>According to their word.</l>
+            </lg>
+            <lg n="6">
+               <l>When they began in Fife to riſe,</l>
+               <l>Beſt Horſes they did make a prize,</l>
+               <l>Then thiev'd and rob'd in ſuch a guiſe.</l>
+               <l>That none could them defeat.</l>
+               <l>Religion they did abuſe,</l>
+               <l>All godlineſs they did refuſe;</l>
+               <l>What ſhall they have for their excuſe</l>
+               <l>Before the Iudgment Seat?</l>
+            </lg>
+            <lg n="7">
+               <l>To ſpeak of them I will forbear,</l>
+               <l>And will make known the progreſs clear,</l>
+               <l>How they themſelves behaved here,</l>
+               <l>In their rebellious plots.</l>
+               <l>They mounted Shepherds on Horſe back,</l>
+               <l>And Webſters were not worth a plack,</l>
+               <l>
+                  <pb facs="tcp:103133:3"/>
+So bitterly they boaſt and crack,</l>
+               <l>Theſe ſilly ſimple ſots.</l>
+            </lg>
+            <lg n="8">
+               <l>They troubled Fife exceeding ſore;</l>
+               <l>As never was the like before,</l>
+               <l>In hoſtile manner more and more</l>
+               <l>They mightily increaſt.</l>
+               <l>At Largo-Law they did conveen,</l>
+               <l>From thence they march'd to Falkland green</l>
+               <l>Straight to the Struthers Park at even,</l>
+               <l>Where they all night did reſt.</l>
+            </lg>
+            <lg n="9">
+               <l>They put us in a feary fary,</l>
+               <l>Cauſ'd many man and wife them wary,</l>
+               <l>Next day they march'd without ten tarry,</l>
+               <l>Intending for the Weſt.</l>
+               <l>When they were marching on the way,</l>
+               <l>Nothing they thought could them afray,</l>
+               <l>That morning was a pleaſant day,</l>
+               <l>But after twelve a blaſt.</l>
+            </lg>
+            <lg n="10">
+               <l>When they their enemies ſaw approach,</l>
+               <l>Who ſadly on them did incroach,</l>
+               <l>They thought it was a ſad reproach,</l>
+               <l>They taken were for traitors.</l>
+               <l>Some died, ſome wounded in the field,</l>
+               <l>Some cry'd for quarters, and did yeeld</l>
+               <l>Vp all their Arms, both Spear and Shield:</l>
+               <l>O! poor fantaſtick <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>reaures.</l>
+            </lg>
+            <lg n="11">
+               <l>In Louthian Shire, and eke the Mers,</l>
+               <l>Through Tweddale with their foot &amp; horſe,</l>
+               <l>Where they did fight, but got the worſe,</l>
+               <l>Who well deſ<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rv'd the ſame.</l>
+               <l>They did pretend ſome pietie,</l>
+               <l>But turn'd it to hypocriſie;</l>
+               <l>
+                  <pb facs="tcp:103133:4"/>
+Rejoycing more in Robbery,</l>
+               <l>Religion did defame.</l>
+            </lg>
+            <lg n="12">
+               <l>For all their foul defeat in Fife,</l>
+               <l>Whereby ſome of them loſt their life,</l>
+               <l>Yet they would not leave off their ſtrife,</l>
+               <l>But ſtill made inſurrection.</l>
+               <l>From every where they march'd full faſt</l>
+               <l>So privatly into the Weſt,</l>
+               <l>Where nothing there could them agaſt,</l>
+               <l>They feared no objection.</l>
+            </lg>
+            <lg n="13">
+               <l>At Lowdon-hill, as I hear ſay,</l>
+               <l>They ſet themſelves in battel ray,</l>
+               <l>And ſolemnly did ſwear and ſay</l>
+               <l>They would not be remiſs:</l>
+               <l>To fight the battels of the Lord,</l>
+               <l>They did conſent with one accord;</l>
+               <l>All who does ſuffer for the Lord</l>
+               <l>Shall have eternal bliſs.</l>
+            </lg>
+            <lg n="14">
+               <l>But ſuddenly a Squad of Horſe</l>
+               <l>Call'd up their Baggage unaworſe,</l>
+               <l>A cunning conduct had of Mars,</l>
+               <l>Made ſome of them bewail.</l>
+               <l>They knew not well what hand to flee,</l>
+               <l>They were in ſo great jeopardie;</l>
+               <l>Still did lament the miſerie</l>
+               <l>Which there to them befell.</l>
+            </lg>
+            <lg n="15">
+               <l>Yet notwithſtanding they amain</l>
+               <l>Did get a new Recruit again,</l>
+               <l>From wickedneſs would not refrain,</l>
+               <l>Therein did take delight.</l>
+               <l>They in the Weſt did rudely ring,</l>
+               <l>Great trouble to the Land did bring,</l>
+               <l>
+                  <pb facs="tcp:103133:4"/>
+In great deriſion of the King,</l>
+               <l>Who all his life did ſlight.</l>
+            </lg>
+            <lg n="16">
+               <l>Still they increas'd and multipli'd,</l>
+               <l>Like monſtrous beaſts, without a head,</l>
+               <l>The blind did get the blind to lead;</l>
+               <l>Diſcipline knew they none.</l>
+               <l>Some greatly fear'd they were but loſt,</l>
+               <l>Without a Captain to the Hoſt:</l>
+               <l>They chois'd a man who made great boaſt,</l>
+               <l>Call'd <hi>Robert Hamilton.</hi>
+               </l>
+            </lg>
+            <lg n="17">
+               <l>To Hamilton Wood he did them bring,</l>
+               <l>Where Maviſe they heard ſweetly ſing;</l>
+               <l>They cry'd, O bleſſed be our King! <note place="margin">(Ieſus)</note>
+               </l>
+               <l>For this ſweet harmony.</l>
+               <l>Yea, certainly it ſignifies,</l>
+               <l>We ſhall ſubdue our enemies,</l>
+               <l>Who over us doth tyrannize,</l>
+               <l>Yea, with great cruelty.</l>
+            </lg>
+            <lg n="18">
+               <l>Thus was their head ſo full of notions,</l>
+               <l>They laid aſide all their devotions,</l>
+               <l>And thought the ground of their promoti<g ref="char:EOLhyphen"/>ons</l>
+               <l>Hard Flint, which turn'd to Glaſſ<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s.</l>
+               <l>They thought us all for to have catcht</l>
+               <l>Into their ſnare, and ſo diſpatcht,</l>
+               <l>Like to the Phenix, long they hatcht,</l>
+               <l>And periſht in their aſhes.</l>
+            </lg>
+            <lg n="19">
+               <l>Our King and Council did conſent,</l>
+               <l>All future danger to prevent,</l>
+               <l>The forces rais'd incontinent</l>
+               <l>Belonging to Scotland.</l>
+               <l>The month of Iune the <hi>17.</hi> day,</l>
+               <l>The Military Forces, they</l>
+               <l>
+                  <pb facs="tcp:103133:5"/>
+March'd to the Weſt without delay,</l>
+               <l>The Rebels to command.</l>
+            </lg>
+            <lg n="20">
+               <l>At the Moor-head they did encamp,</l>
+               <l>Their fight did ſhine like to a Lamp;</l>
+               <l>Three nights or four the Corn did tramp,</l>
+               <l>Which growing was full green.</l>
+               <l>Both Corn and Graſs went to decay,</l>
+               <l>Their Beſtial did take and ſlay;</l>
+               <l>The people fled out of the way,</l>
+               <l>No man was to be ſeen.</l>
+            </lg>
+            <lg n="21">
+               <l>The Duke of Monmouth was ſent down</l>
+               <l>From London, ev'n to Edinburgh Town,</l>
+               <l>Straight to the Camp he made him bown,</l>
+               <l>Well guarded was with Horſe.</l>
+               <l>Where they receiv'd him courteouſly,</l>
+               <l>And him ſaluted reverently,</l>
+               <l>Himſelf behav'd couragiouſly,</l>
+               <l>Who repreſented Mars.</l>
+            </lg>
+            <lg n="22">
+               <l>The pow'r he had, and ſole command</l>
+               <l>O're all the Forces in Scotland,</l>
+               <l>The enterprize did take in hand,</l>
+               <l>The Rebels to ſubdue.</l>
+               <l>For the offence done to our King,</l>
+               <l>We ſhall them to confuſion bring,</l>
+               <l>Except that they repent this thing,</l>
+               <l>Some ſhall it ſadly rue.</l>
+            </lg>
+            <lg n="23">
+               <l>Then was the Forces ordered right,</l>
+               <l>Eight miles they march'd into the night,</l>
+               <l>Next morning when the day grew light</l>
+               <l>The Rebels did appear.</l>
+               <l>They back and forward ſtill carreer'd,</l>
+               <l>In great hoſtility appear'd;</l>
+               <l>
+                  <pb facs="tcp:103133:5"/>
+They thought nothing could them have fear'd</l>
+               <l>Their ſwords were glancing clear.</l>
+            </lg>
+            <lg n="24">
+               <l>They boaſted faſt, and cry'd afar,</l>
+               <l>Come, Dogs, and venture, if ye dar,</l>
+               <l>We are prepared now for War,</l>
+               <l>We know our cauſe is good.</l>
+               <l>The Lord he is upon our ſide,</l>
+               <l>Who is an all-ſufficient guide,</l>
+               <l>Therefore with him we will abide,</l>
+               <l>And venture our dear blood.</l>
+            </lg>
+            <lg n="25">
+               <l>Now Iune the two and twenty day,</l>
+               <l>At Bothwel Bridge began the play,</l>
+               <l>At the firſt Fire they fled away,</l>
+               <l>As ſheep out of the fold.</l>
+               <l>Great things they promiſed to do,</l>
+               <l>The which they ſolemnly did vow;</l>
+               <l>But when the puſh they were put to,</l>
+               <l>Their courage waxed cold.</l>
+            </lg>
+            <lg n="26">
+               <l>Our Cannoneer gave ſuch a blaſt,</l>
+               <l>That put them all in ſuch agaſt,</l>
+               <l>Which made the firſt of them be laſt,</l>
+               <l>The ſwifteſt lead the Van.</l>
+               <l>Fled from the Bridge, their great ſupport,</l>
+               <l>Like cowardly Cullions left their Fort;</l>
+               <l>To ſee the flight it was good ſport,</l>
+               <l>So couchingly they ran.</l>
+            </lg>
+            <lg n="27">
+               <l>In ſolemnizing of their game,</l>
+               <l>Two Guns were looſed after them,</l>
+               <l>Which put their ſpirits out of frame,</l>
+               <l>That formerly made boaſt.</l>
+               <l>When that our Hoſt the Bridge did man,</l>
+               <l>They merrily march'd on the Van,</l>
+               <l>
+                  <pb facs="tcp:103133:6"/>
+Vntil they paſſed every man:</l>
+               <l>Again drew up the Hoſt.</l>
+            </lg>
+            <lg n="28">
+               <l>Whoſe conduct was a ſhining Star,</l>
+               <l>Conjunct with Mars the God of War;</l>
+               <l>They two together joyn'd, who dar</l>
+               <l>Them any more oppoſe.</l>
+               <l>So marched on triumphantlie,</l>
+               <l>Amongſt them was great melodie,</l>
+               <l>By reaſon of their victorie,</l>
+               <l>In which they did rejoice.</l>
+            </lg>
+            <lg n="29">
+               <l>The Whiggs I wote was ill content,</l>
+               <l>Their Father Welſh would not conſent</l>
+               <l>To fight again, but ſtraight he went</l>
+               <l>Away, and left the croud.</l>
+               <l>But <hi>Hamilton,</hi> as it was ſaid,</l>
+               <l>As ſheep them to the ſlaughter led;</l>
+               <l>Like Siſera himſelf he fled,</l>
+               <l>And left the multitude.</l>
+            </lg>
+            <lg n="30">
+               <l>So Iabins Hoſt they were expos'd</l>
+               <l>Into their hands who them inclos'd,</l>
+               <l>And afterwards on them diſpos'd,</l>
+               <l>Of whom they made a prey.</l>
+               <l>Our Cannon play'd on them like thunder,</l>
+               <l>Diſperſed them all quite aſunder;</l>
+               <l>To flee I think it was no wonder,</l>
+               <l>It was not fit to ſtay.</l>
+            </lg>
+            <lg n="31">
+               <l>The feigned Horſe their Foot betray'd,</l>
+               <l>At the firſt Gun were ſo afraid;</l>
+               <l>They wheel'd about, no longer ſtay'd,</l>
+               <l>But fled with all their might.</l>
+               <l>For their deluſion, God, I ſay,</l>
+               <l>Will count with them the Iudgment day,</l>
+               <l>
+                  <pb facs="tcp:103133:6"/>
+When every one their debt muſt pay,</l>
+               <l>In preſence of his ſight.</l>
+            </lg>
+            <lg n="32">
+               <l>But when their Foot did take the flight<g ref="char:punc">▪</g>
+               </l>
+               <l>To make eſcape with all their might,</l>
+               <l>Some ran to holes, ſome to the hight,</l>
+               <l>With many a wallaway.</l>
+               <l>The Highlanders did quickly follow,</l>
+               <l>In victory them up to ſwallow,</l>
+               <l>Cauſ'd many in their blood to wallow,</l>
+               <l>Crying alace that day.</l>
+            </lg>
+            <lg n="33">
+               <l>Then orders came their lives to ſpare,</l>
+               <l>And bring them in from every where;</l>
+               <l>Straight to the Camp with them repair,</l>
+               <l>Where they ſhall be ſecured.</l>
+               <l>More then a thouſand in did bring,</l>
+               <l>'Mongſt whom there was both Kid and King<g ref="char:punc">▪</g>
+               </l>
+               <l>Who drowſily their Lugs did hing,</l>
+               <l>With countenance demured.</l>
+            </lg>
+            <lg n="34">
+               <l>They were committed to the Guard,</l>
+               <l>Expecting but a bad reward,</l>
+               <l>The Gallows which themſelves prepar'd</l>
+               <l>Their captives on to hing:</l>
+               <l>To that ſame Gauows were they brought,</l>
+               <l>Where all of them expected nought,</l>
+               <l>But Haman-like, up to be caught,</l>
+               <l>A puniſhment condign.</l>
+            </lg>
+            <lg n="35">
+               <l>Yet mercy on them was conferr'd,</l>
+               <l>Their puniſhment it was deferr'd,</l>
+               <l>And to the Council was referr'd,</l>
+               <l>To pay them their Arrears,</l>
+               <l>Next morning they were ſent away,</l>
+               <l>Well guarded, who without delay</l>
+               <l>Took them to Edinburgh, I ſay,</l>
+               <l>Then up to the Gray-Friers.</l>
+            </lg>
+            <lg n="36">
+               <l>Into which place they were confin'd,</l>
+               <l>Vntil ſome of their hearts inclin'd,</l>
+               <l>
+                  <pb facs="tcp:103133:7"/>
+To offer with a willing mind</l>
+               <l>For to ſubſcribe the Band.</l>
+               <l>Wherein they promiſ'd faithfully,</l>
+               <l>Obedience with alacrity</l>
+               <l>Of heart, to ſerve his Majeſty,</l>
+               <l>In order to command.</l>
+            </lg>
+            <lg n="37">
+               <l>This finiſhed, they were abſolv'd,</l>
+               <l>Then quickly from the reſt diſſolv'd,</l>
+               <l>To their own homes they ſtraight reſolv'd,</l>
+               <l>When liberat from priſon.</l>
+               <l>But thoſe that would not give conſent</l>
+               <l>Vnto the Bond, incontinent</l>
+               <l>To the Talbooth apart were ſent,</l>
+               <l>Then puniſhed for treaſon.</l>
+            </lg>
+            <lg n="38">
+               <l>Eſpecially, both Kid and King</l>
+               <l>Were brought to puniſhment condign,</l>
+               <l>As greateſt traitors to our King,</l>
+               <l>Who many did delude.</l>
+               <l>And they did ſuffer for the cauſe,</l>
+               <l>Of abrogating all our Laws,</l>
+               <l>Like Infidels, I ſay, becauſe</l>
+               <l>Nothing they underſtood.</l>
+            </lg>
+            <lg n="39">
+               <l>But what became of all the reſt,</l>
+               <l>I know not how they were ſuppreſt,</l>
+               <l>In priſon where they were diſtreſt,</l>
+               <l>And brought to fell confuſion.</l>
+               <l>Some did lament their weary caſe,</l>
+               <l>With weeping, wailing, ſaying, Alace,</l>
+               <l>That e're they ſhould have ſeen his face,</l>
+               <l>The cauſe of their deluſion.</l>
+            </lg>
+            <lg n="40">
+               <l>The Priſoners I'le let alone,</l>
+               <l>And will return to Hamilton,</l>
+               <l>With Welſh, Cargill, and Cameron,</l>
+               <l>S<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ill ſowers of ſedition.</l>
+               <l>Their ſeed, it's certain, is not good,</l>
+               <l>If it be rightly underſtood,</l>
+               <l>
+                  <pb facs="tcp:103133:7"/>
+The product is nothing but blood,</l>
+               <l>The end of their ambition.</l>
+            </lg>
+            <lg n="41">
+               <l>For miſchief was their ſeeds then ſowen,</l>
+               <l>More then for gaining ſouls to Heaven;</l>
+               <l>Their great deſign was to have driven</l>
+               <l>Vs from our Royal right.</l>
+               <l>Bleſt be his Name who doth preſerve</l>
+               <l>All who his ſtatutes do obſerve:</l>
+               <l>Lord, let us never from thee ſwerve,</l>
+               <l>But in thy Laws delight.</l>
+            </lg>
+            <lg n="42">
+               <l>They ſubtile, like the Gibeonites,</l>
+               <l>Who did betray the Iſraelites:</l>
+               <l>At beſt they are but hypocrites,</l>
+               <l>Vnſound in their profeſsion.</l>
+               <l>When they pretend to ſerve the Lord,</l>
+               <l>Amongſt themſelves they do diſcord,</l>
+               <l>Whereby they do abuſe the Word,</l>
+               <l>Which is a high tranſgreſsion.</l>
+            </lg>
+            <lg n="43">
+               <l>They inſpiration have of Sathan,</l>
+               <l>Abiram-like, and Cora, Dathan,</l>
+               <l>Tranſverſing like the Leviathan,</l>
+               <l>Averſe from any rule.</l>
+               <l>Fomenting ſtill in bitter ire,</l>
+               <l>Inſatiate in their deſire,</l>
+               <l>By Vulcan they are ſet on fire,</l>
+               <l>And Saturn adds to fewer.</l>
+            </lg>
+            <lg n="44">
+               <l>At Torwood where they play'd a ſpring,</l>
+               <l>To dance, the Devilled the King,</l>
+               <l>They excommunicate the King,</l>
+               <l>An execrable work.</l>
+               <l>Yea, they themſelves ingaged further,</l>
+               <l>Great many in our Land to murther,</l>
+               <l>Was never heard a plot abſurder,</l>
+               <l>Contrived by the Turk.</l>
+            </lg>
+            <lg n="45">
+               <l>They like Abimelech would reign,</l>
+               <l>If they had all in governing,</l>
+               <l>
+                  <pb facs="tcp:103133:8"/>
+To fell confuſion would they bring</l>
+               <l>The greateſt in our Land.</l>
+               <l>To which they did all condeſcend,</l>
+               <l>All ready this they did intend:</l>
+               <l>From ſuch, I ſay, Lord us defend,</l>
+               <l>With thine Almighty hand.</l>
+            </lg>
+            <lg n="46">
+               <l>Great reaſon have we for to fear</l>
+               <l>Some judgement on our Land this year,</l>
+               <l>Prognoſticated by the Sphear</l>
+               <l>Proceeding from a Star.</l>
+               <l>We fear great Famine, or the Sword,</l>
+               <l>By ſlighting of thy ſacred Word;</l>
+               <l>Now call us home again, O Lord,</l>
+               <l>Who's gone aſtray ſo far.</l>
+            </lg>
+            <lg n="47">
+               <l>Since Iudgement we deſerve ſo clear,</l>
+               <l>Lay no more on then we can bear,</l>
+               <l>Cauſe us thy holy Name to fear,</l>
+               <l>And thankful be for all.</l>
+               <l>Diſpell the cloud that dims our ſight,</l>
+               <l>That darkneſs which obſcures our light,</l>
+               <l>Illuminate our hearts aright,</l>
+               <l>To wait upon your call.</l>
+            </lg>
+            <lg n="48">
+               <l>Vnite our hearts throughout your Land,</l>
+               <l>That we may joyn all hand in hand,</l>
+               <l>For to obſerve thy own command,</l>
+               <l>Thy Name to glorifie.</l>
+               <l>Vs gather all in one ſheep-fold,</l>
+               <l>That we the Shepherd may behold,</l>
+               <l>His Name for ever be extol'd</l>
+               <l>To all eternitie.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:103133:8"/>
+         </div>
+      </body>
+   </text>
+</TEI>
